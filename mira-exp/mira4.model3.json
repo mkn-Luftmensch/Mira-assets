@@ -1,0 +1,44 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "mira4.moc3",
+		"Textures": [
+			"mira4.1024/texture_00.png"
+		],
+		"DisplayInfo": "mira4.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "sad",
+				"File": "expressions/sad.exp3.json"
+			},
+			{
+				"Name": "smile",
+				"File": "expressions/smile.exp3.json"
+			},
+			{
+				"Name": "laugh",
+				"File": "expressions/laugh.exp3.json"
+			},
+			{
+				"Name": "expression1",
+				"File": "expressions/surprised.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
