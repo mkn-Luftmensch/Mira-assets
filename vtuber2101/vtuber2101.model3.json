@@ -34,7 +34,7 @@
 				{
 					"Name": "blink",
 					"File": "motions/blink.motion3.json"
-				}
+				},
 				{
 					"Name": "handwave",
 					"File": "motions/handwave.motion3.json"
