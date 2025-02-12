@@ -1,0 +1,60 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "vtuber2101.moc3",
+		"Textures": [
+			"vtuber2101.1024/texture_00.png",
+			"vtuber2101.1024/texture_01.png"
+		],
+		"DisplayInfo": "vtuber2101.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "neutrak",
+				"File": "expressions/neutral.exp3.json"
+			},
+			{
+				"Name": "sad",
+				"File": "expressions/sad.exp3.json"
+			},
+			{
+				"Name": "smile",
+				"File": "expressions/smile.exp3.json"
+			},
+			{
+				"Name": "laugh",
+				"File": "expressions/laugh.exp3.json"
+			},
+			{
+				"Name": "expression1",
+				"File": "expressions/surprised.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"Name": "blink",
+					"File": "motions/blink.motion3.json"
+				},
+				{
+					"Name": "handwave",
+					"File": "motions/handwave.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
